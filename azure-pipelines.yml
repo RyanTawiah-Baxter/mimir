@@ -14,7 +14,7 @@ steps:
   displayName: HELM LIST
   inputs:
     connectionType: Azure Resource Manager # Options: 'Azure Resource Manager', 'Kubernetes Service Connection', 'None' # Required  # Select 'Azure Resource Manager' to connect to an Azure Kubernetes Service by using Azure Service Connection. Select 'Kubernetes Service Connection' to connect to any Kubernetes cluster by using kubeconfig or Service Account
-    azureSubscriptionEndpoint:   # Required when connectionType = Azure Resource Manager  # Select an Azure subscription, which has your Azure Container Registry.
+    azureSubscriptionEndpoint:  IAC - Connected Services # Required when connectionType = Azure Resource Manager  # Select an Azure subscription, which has your Azure Container Registry.
     azureResourceGroup:   csa-DEV-EUS-aks-rg
     kubernetesCluster:  csa-DEV-EUS-aks
     #useClusterAdmin:  # Optional  # Use cluster administrator credentials instead of default cluster user credentials.
